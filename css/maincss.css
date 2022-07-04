@@ -6,10 +6,24 @@
     cursor: pointer;
     /*超連結手型*/
 }
+.btn-text2 {
+    text-decoration: none; /*隱藏超連結底線*/
+    cursor: pointer; /*超連結手型*/
+    padding: 40px 50px 40px 50px; /*整個框大小*/
+    color: black;
+    background-color: #ECEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .btn-text:hover {
     color: #ef7b41;
 }
+.btn-text2:hover {
+    color: #ef7b41;
+}
+
 
 /* ----------header----------- */
 .header {
@@ -134,15 +148,8 @@
     margin-bottom: 30px;
 }
 
-.card2 {
-    height: 70px;
-    padding: auto 20px auto 20px;
-    margin: 20px 10px 0 10px;
-    background: #ECEFEF;
-    position: relative;
-}
 
-/*-----------swiper-----------*/
+/*-----------swiper1-----------*/
 /* 將套件主色改色 */
 :root {
     --swiper-theme-color: #71A491;
@@ -174,6 +181,18 @@
     opacity: 0.4;
     /*透明度*/
     position: absolute;
+}
+
+
+/*-----------swiper2-----------*/
+.s2{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+ }
+.swiper2 {
+    width: 450px;
+    height: 150px;
 }
 
 /*-----------footer-----------*/
@@ -210,7 +229,20 @@
     font: normal normal bold 20px Noto Sans TC;
 }
 
+
+
+@media screen and (max-width: 1225px) {
+    .swiper2{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 1070px) {
+    .swiper2{
+        width: 250px;
+    }
+}
 /*-------------- 900 --------------*/
+
 @media screen and (max-width: 900px) {
 
 
@@ -233,7 +265,10 @@
     .introduction-content {
         font: normal normal bold 8px Noto Sans TC;
     }
-
+    /*-------------swiper2-----------*/
+    .swiper2{
+        width: 200px;
+    }
     /*-------------item1-----------*/
 
     .item1>ul {
