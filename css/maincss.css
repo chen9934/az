@@ -24,7 +24,10 @@
     color: #ef7b41;
 }
 
-
+.swiper-pagination{
+	bottom:3%;
+    transform: translateY(10px);
+}
 /* ----------header----------- */
 .header {
     display: flex;
@@ -268,6 +271,7 @@
     /*-------------swiper2-----------*/
     .swiper2{
         width: 200px;
+        height: 150px;
     }
     /*-------------item1-----------*/
 
@@ -284,7 +288,7 @@
 
     /*-------------item2-------------*/
     .food-item {
-        height: 300px;
+        /* height: 300px; */
     }
 
     .food-title {
@@ -306,7 +310,20 @@
     .item2 {
         align-items: center;
         flex-direction: column;
+    }
+}
 
+
+/*-------------- 560 --------------*/
+
+
+@media screen and (max-width: 720px) {
+
+
+    /*-------------item2-------------*/
+    .swiper2 {
+        width: 150px;
+        height: 130px;
     }
 
 

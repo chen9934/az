@@ -7,26 +7,26 @@
 
             if (w > 1070) {
                 const swiper2 = new Swiper('.swiper.swiper2', {
-            // Optional parameters
-            loop: true,
-            slidesPerView: 3,
-            spaceBetween: 10,
+                // Optional parameters
+                loop: true,
+                slidesPerView: 3,
+                spaceBetween: 10,
 
-            autoplay: true, //同下
-            autoplay: {
-                delay: 2000,
-                stopOnLastSlide: false, //true:當切換到最後一個slide時停止自動切換
-                disableOnInteraction: true, //true:用戶操作swiper之後自動切換停止
-            },
+                autoplay: true, //同下
+                autoplay: {
+                    delay: 2000,
+                     stopOnLastSlide: false, //true:當切換到最後一個slide時停止自動切換
+                     disableOnInteraction: true, //true:用戶操作swiper之後自動切換停止
+                },
 
-            // 點
-            pagination: {
-                el: '.swiper-pagination',
-            },
+                 // 點
+                 pagination: {
+                     el: '.swiper-pagination',
+                 },
 
-        });
+            });
 
-            }else if(w <= 1070 ){
+            }else if(w <= 1070 && w>560){
                 const swiper2 = new Swiper('.swiper.swiper2', {
             // Optional parameters
             loop: true,
@@ -47,6 +47,26 @@
 
         });
 
+            } else if(w<=560){
+                const swiper2 = new Swiper('.swiper.swiper2', {
+                    // Optional parameters
+                    loop: true,
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+    
+                    autoplay: true, //同下
+                    autoplay: {
+                        delay: 2000,
+                         stopOnLastSlide: false, //true:當切換到最後一個slide時停止自動切換
+                         disableOnInteraction: true, //true:用戶操作swiper之後自動切換停止
+                    },
+    
+                     // 點
+                     pagination: {
+                         el: '.swiper-pagination',
+                     },
+    
+                });
             }
         }
         //-----------------------------------------
