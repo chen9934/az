@@ -24,7 +24,7 @@
                      el: '.swiper-pagination',
                  },
 
-            });
+                });
 
             }else if(w <= 1070 && w>560){
                 const swiper2 = new Swiper('.swiper.swiper2', {
@@ -45,14 +45,14 @@
                 el: '.swiper-pagination',
             },
 
-        });
+                });
 
             } else if(w<=560){
                 const swiper2 = new Swiper('.swiper.swiper2', {
                     // Optional parameters
                     loop: true,
                     slidesPerView: 1,
-                    spaceBetween: 10,
+                    spaceBetween: 0,
     
                     autoplay: true, //同下
                     autoplay: {

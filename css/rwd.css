@@ -1,0 +1,142 @@
+@media screen and (max-width: 1225px) {
+    .swiper2 {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .swiper2 {
+        width: 250px;
+    }
+}
+
+/*-------------- 900 --------------*/
+
+@media screen and (max-width: 900px) {
+
+
+    /*-------------swiper-----------*/
+    .swiper,
+    .swiper-slide>img {
+        width: 500px;
+        height: 300px;
+    }
+
+    .swiper-box {
+        height: 120px;
+        width: 200px;
+    }
+
+    .introduction-t {
+        font: normal normal bold 15px Noto Sans TC;
+    }
+
+    .introduction-content {
+        font: normal normal bold 8px Noto Sans TC;
+    }
+
+    /*-------------swiper2-----------*/
+    .swiper2 {
+        width: 200px;
+        height: 150px;
+    }
+
+    /*-------------item1-----------*/
+
+    .item1>ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    /* .card {
+            margin-bottom: 40px;
+        } */
+
+    /*-------------item2-------------*/
+    .food-item {
+        /* height: 300px; */
+        width: 230px;
+    }
+
+    .food-title {
+        font: normal normal bold 25px Noto Sans TC;
+    }
+
+    .food-content {
+        font: normal normal normal 15px Noto Sans TC;
+    }
+}
+
+/*-------------- 720 --------------*/
+
+
+@media screen and (max-width: 720px) {
+
+
+    /*-------------item2-------------*/
+    .item2 {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+/*-------------- 560 --------------*/
+
+
+@media screen and (max-width: 560px) {
+
+    /*-------------swiper1-------------*/
+    .swiper,
+    .swiper-slide>img {
+        width: 300px;
+        height: 200px;
+    }
+
+    /*-------------swiper2-------------*/
+    .swiper2 {
+        width: 150px;
+        height: 130px;
+    }
+
+
+
+    /* ----------header的顯示----------- */
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+
+    /*------------------------------*/
+
+
+}

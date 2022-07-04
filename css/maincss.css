@@ -6,28 +6,34 @@
     cursor: pointer;
     /*超連結手型*/
 }
+
 .btn-text2 {
-    text-decoration: none; /*隱藏超連結底線*/
-    cursor: pointer; /*超連結手型*/
-    padding: 40px 50px 40px 50px; /*整個框大小*/
+    text-decoration: none;
+    /*隱藏超連結底線*/
+    cursor: pointer;
+    /*超連結手型*/
+    padding: 40px 50px 40px 50px;
+    /*整個框大小*/
     color: black;
     background-color: #ECEFEF;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
 }
 
 .btn-text:hover {
     color: #ef7b41;
 }
+
 .btn-text2:hover {
     color: #ef7b41;
 }
 
-.swiper-pagination{
-	bottom:3%;
+.swiper-pagination {
+    bottom: 3%;
     transform: translateY(10px);
 }
+
 /* ----------header----------- */
 .header {
     display: flex;
@@ -59,6 +65,7 @@
 .option {
     font: normal normal bold 18px Noto Sans TC;
 }
+
 
 /*-------------------------*/
 .introduction-t {
@@ -188,11 +195,12 @@
 
 
 /*-----------swiper2-----------*/
-.s2{
+.s2 {
     height: 300px;
     display: flex;
     justify-content: center;
- }
+}
+
 .swiper2 {
     width: 450px;
     height: 150px;
@@ -233,98 +241,3 @@
 }
 
 
-
-@media screen and (max-width: 1225px) {
-    .swiper2{
-        width: 350px;
-    }
-}
-@media screen and (max-width: 1070px) {
-    .swiper2{
-        width: 250px;
-    }
-}
-/*-------------- 900 --------------*/
-
-@media screen and (max-width: 900px) {
-
-
-    /*-------------swiper-----------*/
-    .swiper,
-    .swiper-slide>img {
-        width: 500px;
-        height: 300px;
-    }
-
-    .swiper-box {
-        height: 120px;
-        width: 200px;
-    }
-
-    .introduction-t {
-        font: normal normal bold 15px Noto Sans TC;
-    }
-
-    .introduction-content {
-        font: normal normal bold 8px Noto Sans TC;
-    }
-    /*-------------swiper2-----------*/
-    .swiper2{
-        width: 200px;
-        height: 150px;
-    }
-    /*-------------item1-----------*/
-
-    .item1>ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-    }
-
-    /* .card {
-            margin-bottom: 40px;
-        } */
-
-    /*-------------item2-------------*/
-    .food-item {
-        /* height: 300px; */
-    }
-
-    .food-title {
-        font: normal normal bold 25px Noto Sans TC;
-    }
-
-    .food-content {
-        font: normal normal normal 15px Noto Sans TC;
-    }
-}
-
-/*-------------- 720 --------------*/
-
-
-@media screen and (max-width: 720px) {
-
-
-    /*-------------item2-------------*/
-    .item2 {
-        align-items: center;
-        flex-direction: column;
-    }
-}
-
-
-/*-------------- 560 --------------*/
-
-
-@media screen and (max-width: 720px) {
-
-
-    /*-------------item2-------------*/
-    .swiper2 {
-        width: 150px;
-        height: 130px;
-    }
-
-
-}
